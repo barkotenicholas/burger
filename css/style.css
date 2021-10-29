@@ -113,14 +113,17 @@ div.fast {
   margin-top: 200px;
 
 }
+.delivery{
+  background-color: #E1EBE6;
+}
 div.cardelivery {
-  height: 250px;
+  height: 350px;
   width: 250px;
   margin-left: 200px;
   float: left;
   border-radius: 10px;
   border: 1px solid rgb(0, 0, 0);    
-  margin-top: 200px;
+  margin-top: 150px;
 
 }
 div.meal{

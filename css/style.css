@@ -1,8 +1,105 @@
-ul{
-    list-style-type: none;
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-li{
-    display: inline;
+body{
+  font-family: 'Poppins';
+}
+nav{
+  height: 80px;
+  width: 100%;
+}
+nav img{
+  margin-left: 100px;
+}
+label.logo{
+  margin-left: 10px;
+  
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+a:hover{
+  border-bottom: 3px solid Red;
+}
+nav label{
+  display: inline-block;
+  font-size: xx-large;
+  color: rgb(7, 1, 1);
+  line-height: 80px;
+  padding: 0px 0px;
+  margin:auto;
+  font-weight: 600;
+  }
+nav span{
+  color: #F6B400;
+  font-family:'Snell Roundhand' 'cursive' ;
+}
+.main{
+  background: linear-gradient(110deg, #ffffff 60%, #F6B400 60%);
+
+}
+.contentmain{
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 20px 40px 40px;
+  max-width: 640px;
+}
+.contentmaintext{
+  display: inline;
+  float: left;
+
+}
+.contentmaintext .heading{
+  font-weight: bold;
+  font-size: xx-large;
+  width: 80%;
+}
+.contentmaintext p{
+  margin-top: 50px;
+ 
+}
+
+.button1{
+  background-color: #F6B400;
+  margin-top: 50px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px  20px 0px 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 2px 2px 2px ;
+  cursor: pointer;
+}
+.im{
+  display: inline-block;
+}
+.contentimage{
+  display: inline;
+  float: right;
+}
+.contentimage img{
+  
+  height: 500px;
 }

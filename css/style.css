@@ -178,3 +178,25 @@ div.fast img{
   left: 45%;
   border-bottom: 10px solid #F6B400;
 }
+.menulist{
+  transition: 0.5s;
+   width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 150px;
+  margin-left: 70px;
+}
+.menulist:hover{
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+
+}
+.menulistcontainer {
+  text-align: center;
+
+}
+.menulist img{
+  height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  width: 200px;
+}

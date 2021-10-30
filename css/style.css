@@ -53,6 +53,7 @@ nav span{
 }
 .main{
   background: linear-gradient(110deg, #ffffff 60%, #F6B400 60%);
+  
 
 }
 .contentmain{
@@ -60,7 +61,7 @@ nav span{
   margin-top: 100px;
   margin-left: 50px;
   padding: 20px 40px 40px;
-  max-width: 640px;
+  max-width: 1200px;
 }
 .contentmaintext{
   display: inline;
@@ -103,39 +104,23 @@ nav span{
   
   height: 500px;
 }
-div.fast {
-  height: 250px;
-  width: 250px;
-  border-radius: 10px;
-  margin-left: 50px;
-  float: left;
-  border: 1px solid rgb(0, 0, 0);    
-  margin-top: 200px;
 
-}
 .delivery{
   background-color: #E1EBE6;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
-div.cardelivery {
-  height: 350px;
-  width: 250px;
-  margin-left: 200px;
-  float: left;
-  border-radius: 10px;
-  border: 1px solid rgb(0, 0, 0);    
-  margin-top: 150px;
-
-}
-div.meal{
+.fast ,.cardelivery ,.meal{
+  display: inline-block;
   height: 250px;
-  float: right;
   width: 250px;
   margin-top: 200px;
   margin-right: 50px;
-border-radius: 10px;
-border: 1px solid rgb(0, 0, 0);     
-
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 1px solid rgb(0, 0, 0);     
 }
+
 div.meal img{
   height: 30px;
   width: 30px;
@@ -163,4 +148,33 @@ div.fast img{
 }
 .smallcontainer p{
   text-align: center;
+}
+.menulist{
+  border-style: solid;
+  margin-top:0px;
+  display: inline-block;
+
+}
+.menulist h1{
+  font-style: italic;
+}
+.menuheader{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.menuheader h2{
+  font-size: xx-large;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  position: relative;
+}
+.menuheader h2:before{
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 10px solid #F6B400;
 }

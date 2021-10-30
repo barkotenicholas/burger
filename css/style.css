@@ -204,3 +204,21 @@ div.fast img{
     margin-right: auto;
   width: 200px;
 }
+.starttext{
+    font-weight: 600;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.doubledeckertext{
+  display: inline;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+}
+.doubledecker{
+  background-color: #E1EBE6;
+
+}

@@ -219,6 +219,7 @@ div.fast img{
 }
 .doubledecker{
   background-color: #E1EBE6;
+  padding-bottom: 100px;
 
 }
 .mobilecontent{
@@ -238,6 +239,7 @@ div.fast img{
 }
 .mobile{
   background-color: #F6B400;
+
 }
 
 .starttext p{
@@ -271,9 +273,7 @@ label.logo{
   margin: 0  auto;
 }
 
-.footer-logo{
-  margin-right: ;
-}
+
 .footer-logo img{
   margin-left: 10px;
   
@@ -325,6 +325,7 @@ label.logo{
 .footericons{
   background-color: #ffffff;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 .fi{

@@ -19,6 +19,9 @@ This is Burger Restourant website
   ```
 * Open index.html with a browser of your choice
  
+# Tech Stack
+- HTML
+- CSS
  ## Live Link
 
 [Click here to see the website](https://barkotenicholas.github.io/burger/)

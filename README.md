@@ -9,13 +9,14 @@ This is Burger Restourant website
 - Nicholas Barkote <nicholas.kebut@student.moringaschool.com>
 ---
 
-## Setup/Installation Requirements
+## Setup Instructions
 
-* clone it to your desktop
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* clone it to your desktop 
+```bash
+ git clone  https://github.com/barkotenicholas/burger.git
+ cd buger
+  ```
+ 
 
 
 ## License & copyright

@@ -236,7 +236,6 @@ div.fast img{
 }
 .mobileimage{
   display: inline-block ;
-  float: right;
 }
 .mobileimage img{ 
   height: 300px;
@@ -247,9 +246,7 @@ div.fast img{
 
 }
 
-.starttext p{
-  
-}
+
 label.logo{
   margin-left: 10px;
   
@@ -284,6 +281,10 @@ label.logo{
   left: 10%;
 }
 
+.footer-logo{
+  position: absolute;
+  left: 3%;
+}
 .footer-logo label{
   display: inline-block;
   font-size: xx-large;
@@ -291,6 +292,8 @@ label.logo{
   line-height: 80px;
   padding: 0px 0px;
   margin:auto;
+  font-style: italic;
+  margin-left: 110px;
   font-weight: 600;
 }
 .footer-logo label span{

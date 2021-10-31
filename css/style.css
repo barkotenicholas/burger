@@ -150,9 +150,10 @@ div.fast img{
   text-align: center;
 }
 .menulist{
-  border-style: solid;
+  border: 2px solid gray ;
   margin-top:0px;
   display: inline-block;
+  margin-bottom: 50px;
 
 }
 .menulist h1{

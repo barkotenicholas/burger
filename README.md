@@ -16,6 +16,7 @@ This is Burger Restourant website
  git clone  https://github.com/barkotenicholas/burger.git
  cd buger
   ```
+* Open index.html with a browser of your choice
  
  ## Live Link
 

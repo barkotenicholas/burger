@@ -329,6 +329,7 @@ label.logo{
   justify-content: space-evenly;
   flex-direction: row;
   margin-bottom: 0px;
+  clear: both;
 }
 .fi{
   width: auto;

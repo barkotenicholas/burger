@@ -31,4 +31,4 @@ This is Burger Restourant website
 
 © Nicholas k Barkote , Moringa school student
 
-Licensed under the MIT License
+Licensed under the [MIT License](LICENSE)

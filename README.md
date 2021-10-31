@@ -4,3 +4,8 @@
 
 This is Burger Restourant website
 
+
+
+## License & copyright
+
+Nicholas k Barkote , Moringa school student

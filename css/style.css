@@ -35,7 +35,7 @@ nav ul li a{
   padding: 7px 13px;
   text-transform: uppercase;
 }
-a:hover{
+nav ul li a:hover{
   border-bottom: 3px solid Red;
 }
 nav label{
@@ -206,19 +206,107 @@ div.fast img{
 }
 .starttext{
     font-weight: 600;
+    margin-top: 45px;
     font-size: xx-large;
-    margin-top: 50px;
 }
 
 .doubledeckertext{
-  display: inline;
+  display: inline-block;
+  margin-left: 50px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;  margin-top: 100px;
+
+}
+.doubledecker{
+  background-color: #E1EBE6;
+
+}
+.mobilecontent{
+  
   display: inline-block;
   margin-top: 100px;
   margin-left: 50px;
   padding: 20px 40px 40px;
   max-width: 1200px;
 }
-.doubledecker{
-  background-color: #E1EBE6;
+.mobileimage{
+  display: inline ;
+  float: right;
+}
+.mobileimage img{ 
+  height: 500px;
+}
+.mobile{
+  background-color: #F6B400;
+}
 
+.starttext p{
+  display: inline-block;
+}
+label.logo{
+  margin-left: 10px;
+  
+}
+.footer-container{
+  background-color: #E1EBE6;
+  padding-bottom: 4rem;
+}
+.footer{
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0  auto;
+}
+.footer-logo img{
+  margin-left: 100px;
+  
+}
+
+.footer-logo label{
+  display: inline-block;
+  font-size: xx-large;
+  color: rgb(7, 1, 1);
+  line-height: 80px;
+  padding: 0px 0px;
+  margin:auto;
+  font-weight: 600;
+}
+.footer-logo label span{
+  color: #F6B400;
+  font-family:'Snell Roundhand' 'cursive' ; 
+}
+.footercontent{
+  display: flex;
+  flex-direction: column;
+  margin-right: 6rem;
+}
+
+.footercontent h2{
+  margin-bottom: 2rem;
+}
+.footercontent a{
+  margin-bottom: 0.5rem;
+}
+.signupform h2{
+  margin-bottom: 2rem;
+}
+#footer-email{
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#button-submit{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color:#F6B400;
+  outline: none;
+}
+.footericons{
+  background-color: #ffffff;
 }

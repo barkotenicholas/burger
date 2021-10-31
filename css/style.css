@@ -97,8 +97,8 @@ nav span{
   display: inline-block;
 }
 .contentimage{
-  display: inline;
   float: right;
+  margin-left: 300px;
 }
 .contentimage img{
   

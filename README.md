@@ -5,7 +5,7 @@
 This is Burger Restourant website
 
 ---
-## contributors
+## Authors
 - Nicholas Barkote <nicholas.kebut@student.moringaschool.com>
 ---
 

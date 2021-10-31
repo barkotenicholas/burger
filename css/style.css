@@ -251,6 +251,17 @@ label.logo{
   background-color: #E1EBE6;
   padding-bottom: 4rem;
 }
+.footericons{
+  background-color: #ffffff;
+  padding-bottom: 4rem;
+}
+.fi{
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0  auto;
+}
 .footer{
   width: 80%;
   height: 40vh;
@@ -259,6 +270,7 @@ label.logo{
   flex-wrap: wrap;
   margin: 0  auto;
 }
+
 .footer-logo img{
   margin-left: 100px;
   
